@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color : #ffd4da;
+    color : aliceblue;
     font-size: 20px;
 }
 
@@ -30,4 +30,17 @@ h1 {
 
 h2 {
     font-size: 50px;
+}
+
+a {
+    color : bisque;
+}
+
+#contact div{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#contact div>*{
+    margin-left: 10px;
 }
