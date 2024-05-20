@@ -21,7 +21,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 40px; /* Ajustez la hauteur selon vos besoins */
+    height: 40px;
 }
 
 h1 {
@@ -43,4 +43,47 @@ a {
 
 #contact div>*{
     margin-left: 10px;
+}
+
+.apprentissage{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.apprentissage div:last-of-type{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    margin-right: 15px;
+    border-top : solid 2px #383142;
+}
+
+.apprentissage div:last-of-type p{
+    margin-bottom: 7px;
+}
+
+.apprentissage div:first-of-type{
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    border : solid 2px aliceblue;
+    border-radius: 10px;
+    font-size: 95%;
+    min-width: 30%;
+    background-color: #362f3f;
+}
+
+.apprentissage div:first-of-type h3{
+    text-align: center;
+}
+
+.apprentissage div:first-of-type li{
+    margin-bottom: 5%;
+}
+
+@media (max-width: 768px) {
+    .apprentissage {
+        flex-direction: column;
+    }
 }
