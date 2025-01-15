@@ -59,6 +59,19 @@ a {
     max-width: 1000px;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.section .row {
+    gap : 15px;
+}
+
+.section .row img {
+    width: 400px;
+}
+
 .apprentissage{
     display: flex;
     flex-direction: row-reverse;
