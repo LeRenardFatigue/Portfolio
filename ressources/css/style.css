@@ -2,7 +2,6 @@ body {
     background-color: #27202e;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     color : aliceblue;
     font-size: 20px;
@@ -14,7 +13,7 @@ header {
     left: 0;
     width: 100%;
     background-color: rgba(14, 8, 18, 0.75);
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav {
@@ -43,6 +42,21 @@ a {
 
 #contact div>*{
     margin-left: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section {
+    text-align: justify;
+    background-color: #16101d;
+    padding: 20px;
+    border-radius: 5px;
+    border : solid 1px aliceblue;
+    max-width: 1000px;
 }
 
 .apprentissage{
